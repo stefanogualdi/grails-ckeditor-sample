@@ -3,6 +3,8 @@ CKEDITOR.plugins.addExternal('MediaEmbed', '/ckplug/js/ckeditor/plugins/mediaemb
 
 CKEDITOR.editorConfig = function( config )
 {
+	config.templates_files = [ '/ckplug/js/ckeditor/templates/template.js' ];
+
 	config.extraPlugins = 'MediaEmbed';
 
     config.toolbar_custom = [
